@@ -1,0 +1,270 @@
+body {  
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/046/169/910/small/blur-abstract-color-background-photo.jpg'); /* Example of a random background image */  
+    background-size: cover; /* Cover the entire viewport */  
+    background-position: center; /* Center the image */  
+    background-repeat: no-repeat;
+    background-color: #ADD8E6; /* Light blue background */  
+    font: italic;  
+    margin: 0;  
+    padding: 20px;  
+}
+h2{
+    display: inline-block;
+    width: 350px;
+    height:650px;
+    border: 2px solid red ;
+    margin: 10px 30px;
+    background-color: aliceblue;
+    text-align: center;
+    align-content: center;
+}  
+.container1{
+    float: right;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    word-spacing: 5px;
+    
+}
+.header{
+    font-size: 60px;
+    color: maroon;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.textcolour{
+    width: 320px;
+    border: 2px solid black;
+}
+.backcolour{
+    width: 320px;
+    border: 2px solid black;
+}
+.colour-btn{
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+button:hover {  
+    transform: scale(1.1);
+} 
+button{
+    margin: 1.5px 1.5px;
+}
+
+.font-container{  
+    flex-wrap: wrap;  
+    justify-content: center;
+    border: 3px solid black; 
+    width: 700px;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 30px 30px;
+}
+
+.font-btn {  
+    margin: 8px;  
+    padding: 10px 10px;  
+    border: 1px solid black;  
+    border-radius: 5px;  
+    color: black;  
+    min-width: 100px;
+    background-color: #ffcc80;  
+}
+.font-btn:hover {  
+    background-color: #ffab40;
+    transform: translateY(-2px);  
+}
+
+
+
+#redtext{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+#greentext{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+}
+#bluetext{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+}
+#violettext{
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    border-radius: 50%;
+}
+#indigotext{
+    width: 50px;
+    height: 50px;
+    background-color: indigo;
+    border-radius: 50%;
+}
+#yellowtext{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+#orangetext{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+}
+#skybluetext{
+    width: 50px;
+    height: 50px;
+    background-color: skyblue;
+    border-radius: 50%;
+}
+#salmontext{
+    width: 50px;
+    height: 50px;
+    background-color: salmon;
+    border-radius: 50%;
+}
+#yellowgreentext{
+    width: 50px;
+    height: 50px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+#royalbluetext{
+    width: 50px;
+    height: 50px;
+    background-color: royalblue;
+    border-radius: 50%;
+}
+#tomatotext{
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+    border-radius: 50%;
+}
+#tealtext{
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    border-radius: 50%;
+}
+#mediumturquoisetext{
+    width: 50px;
+    height: 50px;
+    background-color: mediumturquoise;
+    border-radius: 50%;
+}
+#firebricktext{
+    width: 50px;
+    height: 50px;
+    background-color: firebrick;
+    border-radius: 50%;
+}
+
+#redback{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+#greenback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+}
+#blueback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+}
+#violetback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:violet;
+}
+#indigoback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: indigo;
+}
+#yellowback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+#orangeback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+}
+#skyblueback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: skyblue;
+}
+#salmonback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: salmon;
+}
+#yellowgreenback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+}
+#royalblueback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: royalblue;
+}
+#tomatoback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: tomato;
+}
+#tealback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: teal;
+}
+#mediumturquoiseback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: mediumturquoise;
+}
+#firebrickback{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: firebrick;
+}
+
+
